@@ -73,10 +73,11 @@
 									<li><a href="#">Lorem ipsum</a></li>
 								</ul>
 							</li>a
-							<li><a href="Client.aspx">Clients</a></li>
-							<li><a href="products.aspx">Products</a></li>
-							<li><a href="shipment.aspx">Shipment</a></li>
-							<li><a href="Contacts.aspx">Contacts</a></li>
+							<li><a href="KHACHHANG.aspx">KHÁCH HÀNG</a></li>
+							<li><a href="SANPHAM.aspx">SẢN PHẨM</a></li>
+							<li><a href="HOADON.aspx">HOÁ ĐƠN</a></li>
+                            <li><a href="HOADONCHITIET.aspx">HOÁ ĐƠN CHI TIẾT</a></li>
+							<li><a href="CONTACTS.aspx">CONTACTS</a></li>
 						</ul>
 					</nav>
 				</div>
