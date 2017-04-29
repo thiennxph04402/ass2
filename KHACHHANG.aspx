@@ -4,7 +4,9 @@
     <form id="form1" runat="server">
     <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px" 
         AllowPaging="True" AutoGenerateRows="False" DataKeyNames="ID" 
-        DataSourceID="SqlDataSource1">
+        DataSourceID="SqlDataSource1" BackColor="#DEBA84" BorderColor="#DEBA84" 
+        BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2">
+        <EditRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
         <Fields>
             <asp:BoundField DataField="ID" HeaderText="ID" ReadOnly="True" 
                 SortExpression="ID" />
@@ -14,6 +16,10 @@
             <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" 
                 ShowInsertButton="True" />
         </Fields>
+        <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
+        <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+        <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
+        <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
     </asp:DetailsView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
         ConnectionString="<%$ ConnectionStrings:BConnectionString %>" 
